@@ -1,0 +1,531 @@
+{
+  "calls_per_cell": 1000,
+  "test_seed_start": 100000,
+  "configs": {
+    "baseline": {
+      "spoken_numbers": false,
+      "fuzzy_locality": false,
+      "confirm_uncertain": false,
+      "contextual_numbers": false,
+      "confirm_summary": false,
+      "chunked_phone": false
+    },
+    "no_spoken_numbers": {
+      "spoken_numbers": false,
+      "fuzzy_locality": true,
+      "confirm_uncertain": true,
+      "contextual_numbers": true,
+      "confirm_summary": true,
+      "chunked_phone": true
+    },
+    "no_fuzzy_locality": {
+      "spoken_numbers": true,
+      "fuzzy_locality": false,
+      "confirm_uncertain": true,
+      "contextual_numbers": true,
+      "confirm_summary": true,
+      "chunked_phone": true
+    },
+    "no_confirmations": {
+      "spoken_numbers": true,
+      "fuzzy_locality": true,
+      "confirm_uncertain": false,
+      "contextual_numbers": true,
+      "confirm_summary": false,
+      "chunked_phone": true
+    },
+    "no_chunked_phone": {
+      "spoken_numbers": true,
+      "fuzzy_locality": true,
+      "confirm_uncertain": true,
+      "contextual_numbers": true,
+      "confirm_summary": true,
+      "chunked_phone": false
+    },
+    "full": {
+      "spoken_numbers": true,
+      "fuzzy_locality": true,
+      "confirm_uncertain": true,
+      "contextual_numbers": true,
+      "confirm_summary": true,
+      "chunked_phone": true
+    }
+  },
+  "word_error_rates": [
+    0.0,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "results": {
+    "baseline": {
+      "0.00": {
+        "calls": 1000,
+        "task_success": 0.184,
+        "outcome_correct": 0.184,
+        "slot_accuracy": {
+          "locality": 1.0,
+          "bhk": 0.0,
+          "budget": 0.0,
+          "timeline": 0.0
+        },
+        "all_slots_correct": 0.0,
+        "recommendation_correct": 0.0,
+        "booking_correct": 0.0,
+        "questions_answered_correctly": null,
+        "questions_asked": 0,
+        "exits_handled": 1.0,
+        "guardrail_violations": 0,
+        "avg_turns": 20.86
+      },
+      "0.05": {
+        "calls": 1000,
+        "task_success": 0.184,
+        "outcome_correct": 0.184,
+        "slot_accuracy": {
+          "locality": 1.0,
+          "bhk": 0.0,
+          "budget": 0.0,
+          "timeline": 0.0
+        },
+        "all_slots_correct": 0.0,
+        "recommendation_correct": 0.0,
+        "booking_correct": 0.0,
+        "questions_answered_correctly": null,
+        "questions_asked": 0,
+        "exits_handled": 1.0,
+        "guardrail_violations": 0,
+        "avg_turns": 20.87
+      },
+      "0.10": {
+        "calls": 1000,
+        "task_success": 0.184,
+        "outcome_correct": 0.184,
+        "slot_accuracy": {
+          "locality": 1.0,
+          "bhk": 0.0,
+          "budget": 0.0,
+          "timeline": 0.0
+        },
+        "all_slots_correct": 0.0,
+        "recommendation_correct": 0.0,
+        "booking_correct": 0.0,
+        "questions_answered_correctly": null,
+        "questions_asked": 0,
+        "exits_handled": 1.0,
+        "guardrail_violations": 0,
+        "avg_turns": 20.88
+      },
+      "0.20": {
+        "calls": 1000,
+        "task_success": 0.184,
+        "outcome_correct": 0.184,
+        "slot_accuracy": {
+          "locality": 1.0,
+          "bhk": 0.0,
+          "budget": 0.0,
+          "timeline": 0.0
+        },
+        "all_slots_correct": 0.0,
+        "recommendation_correct": 0.0,
+        "booking_correct": 0.0,
+        "questions_answered_correctly": null,
+        "questions_asked": 0,
+        "exits_handled": 1.0,
+        "guardrail_violations": 0,
+        "avg_turns": 20.9
+      }
+    },
+    "no_spoken_numbers": {
+      "0.00": {
+        "calls": 1000,
+        "task_success": 0.184,
+        "outcome_correct": 0.184,
+        "slot_accuracy": {
+          "locality": 1.0,
+          "bhk": 0.0,
+          "budget": 0.0,
+          "timeline": 0.0
+        },
+        "all_slots_correct": 0.0,
+        "recommendation_correct": 0.0,
+        "booking_correct": 0.0,
+        "questions_answered_correctly": null,
+        "questions_asked": 0,
+        "exits_handled": 1.0,
+        "guardrail_violations": 0,
+        "avg_turns": 20.86
+      },
+      "0.05": {
+        "calls": 1000,
+        "task_success": 0.184,
+        "outcome_correct": 0.184,
+        "slot_accuracy": {
+          "locality": 1.0,
+          "bhk": 0.0,
+          "budget": 0.0,
+          "timeline": 0.0
+        },
+        "all_slots_correct": 0.0,
+        "recommendation_correct": 0.0,
+        "booking_correct": 0.0,
+        "questions_answered_correctly": null,
+        "questions_asked": 0,
+        "exits_handled": 1.0,
+        "guardrail_violations": 0,
+        "avg_turns": 20.87
+      },
+      "0.10": {
+        "calls": 1000,
+        "task_success": 0.184,
+        "outcome_correct": 0.184,
+        "slot_accuracy": {
+          "locality": 1.0,
+          "bhk": 0.0,
+          "budget": 0.0,
+          "timeline": 0.0
+        },
+        "all_slots_correct": 0.0,
+        "recommendation_correct": 0.0,
+        "booking_correct": 0.0,
+        "questions_answered_correctly": null,
+        "questions_asked": 0,
+        "exits_handled": 1.0,
+        "guardrail_violations": 0,
+        "avg_turns": 20.88
+      },
+      "0.20": {
+        "calls": 1000,
+        "task_success": 0.184,
+        "outcome_correct": 0.184,
+        "slot_accuracy": {
+          "locality": 1.0,
+          "bhk": 0.0,
+          "budget": 0.0,
+          "timeline": 0.0
+        },
+        "all_slots_correct": 0.0,
+        "recommendation_correct": 0.0,
+        "booking_correct": 0.0,
+        "questions_answered_correctly": null,
+        "questions_asked": 0,
+        "exits_handled": 1.0,
+        "guardrail_violations": 0,
+        "avg_turns": 20.9
+      }
+    },
+    "no_fuzzy_locality": {
+      "0.00": {
+        "calls": 1000,
+        "task_success": 0.999,
+        "outcome_correct": 0.999,
+        "slot_accuracy": {
+          "locality": 1.0,
+          "bhk": 1.0,
+          "budget": 0.9988,
+          "timeline": 1.0
+        },
+        "all_slots_correct": 0.9988,
+        "recommendation_correct": 0.9988,
+        "booking_correct": 1.0,
+        "questions_answered_correctly": 1.0,
+        "questions_asked": 527,
+        "exits_handled": 1.0,
+        "guardrail_violations": 0,
+        "avg_turns": 7.99
+      },
+      "0.05": {
+        "calls": 1000,
+        "task_success": 0.999,
+        "outcome_correct": 0.999,
+        "slot_accuracy": {
+          "locality": 1.0,
+          "bhk": 1.0,
+          "budget": 0.9988,
+          "timeline": 1.0
+        },
+        "all_slots_correct": 0.9988,
+        "recommendation_correct": 0.9988,
+        "booking_correct": 1.0,
+        "questions_answered_correctly": 1.0,
+        "questions_asked": 527,
+        "exits_handled": 1.0,
+        "guardrail_violations": 0,
+        "avg_turns": 8.45
+      },
+      "0.10": {
+        "calls": 1000,
+        "task_success": 0.991,
+        "outcome_correct": 0.996,
+        "slot_accuracy": {
+          "locality": 1.0,
+          "bhk": 1.0,
+          "budget": 0.9988,
+          "timeline": 1.0
+        },
+        "all_slots_correct": 0.9988,
+        "recommendation_correct": 0.9975,
+        "booking_correct": 0.9957,
+        "questions_answered_correctly": 0.9905,
+        "questions_asked": 527,
+        "exits_handled": 1.0,
+        "guardrail_violations": 0,
+        "avg_turns": 8.99
+      },
+      "0.20": {
+        "calls": 1000,
+        "task_success": 0.949,
+        "outcome_correct": 0.965,
+        "slot_accuracy": {
+          "locality": 1.0,
+          "bhk": 1.0,
+          "budget": 0.9988,
+          "timeline": 1.0
+        },
+        "all_slots_correct": 0.9988,
+        "recommendation_correct": 0.9975,
+        "booking_correct": 0.9371,
+        "questions_answered_correctly": 0.9696,
+        "questions_asked": 527,
+        "exits_handled": 1.0,
+        "guardrail_violations": 0,
+        "avg_turns": 10.49
+      }
+    },
+    "no_confirmations": {
+      "0.00": {
+        "calls": 1000,
+        "task_success": 0.999,
+        "outcome_correct": 1.0,
+        "slot_accuracy": {
+          "locality": 1.0,
+          "bhk": 1.0,
+          "budget": 0.9988,
+          "timeline": 1.0
+        },
+        "all_slots_correct": 0.9988,
+        "recommendation_correct": 1.0,
+        "booking_correct": 1.0,
+        "questions_answered_correctly": 1.0,
+        "questions_asked": 532,
+        "exits_handled": 1.0,
+        "guardrail_violations": 0,
+        "avg_turns": 7.01
+      },
+      "0.05": {
+        "calls": 1000,
+        "task_success": 0.897,
+        "outcome_correct": 0.985,
+        "slot_accuracy": {
+          "locality": 1.0,
+          "bhk": 1.0,
+          "budget": 0.8747,
+          "timeline": 1.0
+        },
+        "all_slots_correct": 0.8747,
+        "recommendation_correct": 0.9562,
+        "booking_correct": 0.9978,
+        "questions_answered_correctly": 1.0,
+        "questions_asked": 537,
+        "exits_handled": 1.0,
+        "guardrail_violations": 0,
+        "avg_turns": 7.32
+      },
+      "0.10": {
+        "calls": 1000,
+        "task_success": 0.802,
+        "outcome_correct": 0.956,
+        "slot_accuracy": {
+          "locality": 1.0,
+          "bhk": 1.0,
+          "budget": 0.7668,
+          "timeline": 1.0
+        },
+        "all_slots_correct": 0.7668,
+        "recommendation_correct": 0.906,
+        "booking_correct": 0.9761,
+        "questions_answered_correctly": 0.9906,
+        "questions_asked": 532,
+        "exits_handled": 1.0,
+        "guardrail_violations": 0,
+        "avg_turns": 7.75
+      },
+      "0.20": {
+        "calls": 1000,
+        "task_success": 0.654,
+        "outcome_correct": 0.922,
+        "slot_accuracy": {
+          "locality": 1.0,
+          "bhk": 1.0,
+          "budget": 0.6007,
+          "timeline": 1.0
+        },
+        "all_slots_correct": 0.6007,
+        "recommendation_correct": 0.84,
+        "booking_correct": 0.9262,
+        "questions_answered_correctly": 0.9852,
+        "questions_asked": 541,
+        "exits_handled": 1.0,
+        "guardrail_violations": 0,
+        "avg_turns": 8.58
+      }
+    },
+    "no_chunked_phone": {
+      "0.00": {
+        "calls": 1000,
+        "task_success": 0.999,
+        "outcome_correct": 0.999,
+        "slot_accuracy": {
+          "locality": 1.0,
+          "bhk": 1.0,
+          "budget": 0.9988,
+          "timeline": 1.0
+        },
+        "all_slots_correct": 0.9988,
+        "recommendation_correct": 0.9988,
+        "booking_correct": 1.0,
+        "questions_answered_correctly": 1.0,
+        "questions_asked": 527,
+        "exits_handled": 1.0,
+        "guardrail_violations": 0,
+        "avg_turns": 7.99
+      },
+      "0.05": {
+        "calls": 1000,
+        "task_success": 0.999,
+        "outcome_correct": 0.999,
+        "slot_accuracy": {
+          "locality": 1.0,
+          "bhk": 1.0,
+          "budget": 0.9988,
+          "timeline": 1.0
+        },
+        "all_slots_correct": 0.9988,
+        "recommendation_correct": 0.9988,
+        "booking_correct": 1.0,
+        "questions_answered_correctly": 1.0,
+        "questions_asked": 527,
+        "exits_handled": 1.0,
+        "guardrail_violations": 0,
+        "avg_turns": 8.44
+      },
+      "0.10": {
+        "calls": 1000,
+        "task_success": 0.99,
+        "outcome_correct": 0.995,
+        "slot_accuracy": {
+          "locality": 1.0,
+          "bhk": 1.0,
+          "budget": 0.9988,
+          "timeline": 1.0
+        },
+        "all_slots_correct": 0.9988,
+        "recommendation_correct": 0.9975,
+        "booking_correct": 0.9935,
+        "questions_answered_correctly": 0.9905,
+        "questions_asked": 527,
+        "exits_handled": 1.0,
+        "guardrail_violations": 0,
+        "avg_turns": 8.97
+      },
+      "0.20": {
+        "calls": 1000,
+        "task_success": 0.944,
+        "outcome_correct": 0.96,
+        "slot_accuracy": {
+          "locality": 1.0,
+          "bhk": 1.0,
+          "budget": 0.9988,
+          "timeline": 1.0
+        },
+        "all_slots_correct": 0.9988,
+        "recommendation_correct": 0.9975,
+        "booking_correct": 0.9284,
+        "questions_answered_correctly": 0.9696,
+        "questions_asked": 527,
+        "exits_handled": 1.0,
+        "guardrail_violations": 0,
+        "avg_turns": 10.47
+      }
+    },
+    "full": {
+      "0.00": {
+        "calls": 1000,
+        "task_success": 0.999,
+        "outcome_correct": 0.999,
+        "slot_accuracy": {
+          "locality": 1.0,
+          "bhk": 1.0,
+          "budget": 0.9988,
+          "timeline": 1.0
+        },
+        "all_slots_correct": 0.9988,
+        "recommendation_correct": 0.9988,
+        "booking_correct": 1.0,
+        "questions_answered_correctly": 1.0,
+        "questions_asked": 527,
+        "exits_handled": 1.0,
+        "guardrail_violations": 0,
+        "avg_turns": 7.99
+      },
+      "0.05": {
+        "calls": 1000,
+        "task_success": 0.999,
+        "outcome_correct": 0.999,
+        "slot_accuracy": {
+          "locality": 1.0,
+          "bhk": 1.0,
+          "budget": 0.9988,
+          "timeline": 1.0
+        },
+        "all_slots_correct": 0.9988,
+        "recommendation_correct": 0.9988,
+        "booking_correct": 1.0,
+        "questions_answered_correctly": 1.0,
+        "questions_asked": 527,
+        "exits_handled": 1.0,
+        "guardrail_violations": 0,
+        "avg_turns": 8.46
+      },
+      "0.10": {
+        "calls": 1000,
+        "task_success": 0.991,
+        "outcome_correct": 0.996,
+        "slot_accuracy": {
+          "locality": 1.0,
+          "bhk": 1.0,
+          "budget": 0.9988,
+          "timeline": 1.0
+        },
+        "all_slots_correct": 0.9988,
+        "recommendation_correct": 0.9975,
+        "booking_correct": 0.9957,
+        "questions_answered_correctly": 0.9905,
+        "questions_asked": 527,
+        "exits_handled": 1.0,
+        "guardrail_violations": 0,
+        "avg_turns": 8.99
+      },
+      "0.20": {
+        "calls": 1000,
+        "task_success": 0.948,
+        "outcome_correct": 0.964,
+        "slot_accuracy": {
+          "locality": 1.0,
+          "bhk": 1.0,
+          "budget": 0.9988,
+          "timeline": 1.0
+        },
+        "all_slots_correct": 0.9988,
+        "recommendation_correct": 0.9975,
+        "booking_correct": 0.9371,
+        "questions_answered_correctly": 0.9696,
+        "questions_asked": 527,
+        "exits_handled": 1.0,
+        "guardrail_violations": 0,
+        "avg_turns": 10.5
+      }
+    }
+  },
+  "seconds": 77.8
+}

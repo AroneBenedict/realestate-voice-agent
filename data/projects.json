@@ -1,0 +1,897 @@
+{
+  "note": "Fictional catalogue for testing. No project, developer or registration number is real.",
+  "localities": {
+    "Whitefield": {
+      "zone": "East"
+    },
+    "KR Puram": {
+      "zone": "East"
+    },
+    "Sarjapur Road": {
+      "zone": "South-East"
+    },
+    "HSR Layout": {
+      "zone": "South-East"
+    },
+    "Electronic City": {
+      "zone": "South"
+    },
+    "Bannerghatta Road": {
+      "zone": "South"
+    },
+    "Kanakapura Road": {
+      "zone": "South"
+    },
+    "Hebbal": {
+      "zone": "North"
+    },
+    "Hennur": {
+      "zone": "North"
+    },
+    "Yelahanka": {
+      "zone": "North"
+    },
+    "Devanahalli": {
+      "zone": "North"
+    }
+  },
+  "projects": [
+    {
+      "id": "P01",
+      "name": "Dewdrop Greens",
+      "developer": "Demo Estates",
+      "locality": "Whitefield",
+      "zone": "East",
+      "units_available": 14,
+      "configs": [
+        {
+          "bhk": 1,
+          "sqft_min": 600,
+          "sqft_max": 660,
+          "price_min_lakh": 53.7,
+          "price_max_lakh": 58.8
+        },
+        {
+          "bhk": 2,
+          "sqft_min": 1080,
+          "sqft_max": 1230,
+          "price_min_lakh": 96.0,
+          "price_max_lakh": 109.7
+        },
+        {
+          "bhk": 3,
+          "sqft_min": 1520,
+          "sqft_max": 1690,
+          "price_min_lakh": 135.9,
+          "price_max_lakh": 150.7
+        }
+      ],
+      "facts": {
+        "possession": "Ready to move",
+        "rera": "DEMO-RERA-100",
+        "amenities": "badminton court, children's play area, power backup, indoor games room, co-working space",
+        "maintenance": "3 rupees per square foot per month",
+        "parking": "one covered car park per unit",
+        "metro": "4.1 km to the nearest metro station",
+        "payment_plan": "full payment on registration (ready unit)",
+        "home_loan": "home loans available through partner banks, subject to the bank's approval"
+      }
+    },
+    {
+      "id": "P02",
+      "name": "Ivory Heights",
+      "developer": "Sample Homes",
+      "locality": "Whitefield",
+      "zone": "East",
+      "units_available": 58,
+      "configs": [
+        {
+          "bhk": 2,
+          "sqft_min": 1100,
+          "sqft_max": 1170,
+          "price_min_lakh": 92.6,
+          "price_max_lakh": 98.8
+        },
+        {
+          "bhk": 4,
+          "sqft_min": 2270,
+          "sqft_max": 2470,
+          "price_min_lakh": 191.4,
+          "price_max_lakh": 208.8
+        }
+      ],
+      "facts": {
+        "possession": "June 2027",
+        "rera": "DEMO-RERA-101",
+        "amenities": "badminton court, power backup, co-working space, gym, children's play area",
+        "maintenance": "3.5 rupees per square foot per month",
+        "parking": "one covered car park, two for 3 BHK and above",
+        "metro": "3.4 km to the nearest metro station",
+        "payment_plan": "10 percent on booking, rest linked to construction",
+        "home_loan": "home loans available through partner banks, subject to the bank's approval",
+        "pets": "pets allowed as per association rules"
+      }
+    },
+    {
+      "id": "P03",
+      "name": "Maple Vista",
+      "developer": "Example Builders",
+      "locality": "KR Puram",
+      "zone": "East",
+      "units_available": 40,
+      "configs": [
+        {
+          "bhk": 1,
+          "sqft_min": 640,
+          "sqft_max": 720,
+          "price_min_lakh": 50.0,
+          "price_max_lakh": 55.9
+        },
+        {
+          "bhk": 2,
+          "sqft_min": 1100,
+          "sqft_max": 1240,
+          "price_min_lakh": 85.1,
+          "price_max_lakh": 96.2
+        }
+      ],
+      "facts": {
+        "possession": "December 2028",
+        "rera": "DEMO-RERA-102",
+        "amenities": "gym, swimming pool, indoor games room, co-working space, clubhouse",
+        "maintenance": "4 rupees per square foot per month",
+        "parking": "one covered car park per unit",
+        "metro": "1.2 km to the nearest metro station",
+        "payment_plan": "full payment on registration (ready unit)",
+        "home_loan": "home loans available through partner banks, subject to the bank's approval",
+        "pets": "pet friendly, with a pet park"
+      }
+    },
+    {
+      "id": "P04",
+      "name": "Nimbus Heights",
+      "developer": "Example Builders",
+      "locality": "KR Puram",
+      "zone": "East",
+      "units_available": 30,
+      "configs": [
+        {
+          "bhk": 1,
+          "sqft_min": 620,
+          "sqft_max": 660,
+          "price_min_lakh": 40.0,
+          "price_max_lakh": 42.8
+        },
+        {
+          "bhk": 2,
+          "sqft_min": 1060,
+          "sqft_max": 1160,
+          "price_min_lakh": 68.6,
+          "price_max_lakh": 74.9
+        },
+        {
+          "bhk": 4,
+          "sqft_min": 2360,
+          "sqft_max": 2640,
+          "price_min_lakh": 152.3,
+          "price_max_lakh": 170.3
+        }
+      ],
+      "facts": {
+        "possession": "Ready to move",
+        "rera": "DEMO-RERA-103",
+        "amenities": "landscaped garden, indoor games room, jogging track, badminton court, swimming pool",
+        "maintenance": "4 rupees per square foot per month",
+        "parking": "one covered car park, two for 3 BHK and above",
+        "metro": "1.5 km to the nearest metro station",
+        "payment_plan": "full payment on registration (ready unit)",
+        "home_loan": "home loans available through partner banks, subject to the bank's approval",
+        "pets": "pets allowed as per association rules"
+      }
+    },
+    {
+      "id": "P05",
+      "name": "Quartz Gardens",
+      "developer": "Sample Homes",
+      "locality": "Sarjapur Road",
+      "zone": "South-East",
+      "units_available": 47,
+      "configs": [
+        {
+          "bhk": 1,
+          "sqft_min": 610,
+          "sqft_max": 660,
+          "price_min_lakh": 46.8,
+          "price_max_lakh": 50.0
+        },
+        {
+          "bhk": 4,
+          "sqft_min": 2320,
+          "sqft_max": 2660,
+          "price_min_lakh": 176.3,
+          "price_max_lakh": 202.6
+        }
+      ],
+      "facts": {
+        "possession": "June 2027",
+        "rera": "DEMO-RERA-104",
+        "amenities": "indoor games room, badminton court, swimming pool, children's play area, gym",
+        "maintenance": "5 rupees per square foot per month",
+        "parking": "one covered car park per unit",
+        "metro": "3.8 km to the nearest metro station",
+        "payment_plan": "10 percent on booking, rest linked to construction",
+        "home_loan": "home loans available through partner banks, subject to the bank's approval"
+      }
+    },
+    {
+      "id": "P06",
+      "name": "Cedar Towers",
+      "developer": "Sample Homes",
+      "locality": "Sarjapur Road",
+      "zone": "South-East",
+      "units_available": 14,
+      "configs": [
+        {
+          "bhk": 2,
+          "sqft_min": 1090,
+          "sqft_max": 1230,
+          "price_min_lakh": 96.7,
+          "price_max_lakh": 108.9
+        },
+        {
+          "bhk": 3,
+          "sqft_min": 1580,
+          "sqft_max": 1670,
+          "price_min_lakh": 139.7,
+          "price_max_lakh": 148.4
+        },
+        {
+          "bhk": 4,
+          "sqft_min": 2340,
+          "sqft_max": 2540,
+          "price_min_lakh": 207.6,
+          "price_max_lakh": 225.5
+        }
+      ],
+      "facts": {
+        "possession": "Ready to move",
+        "rera": "DEMO-RERA-105",
+        "amenities": "jogging track, co-working space, indoor games room, power backup, swimming pool",
+        "maintenance": "5 rupees per square foot per month",
+        "parking": "one covered car park, two for 3 BHK and above",
+        "metro": "1.7 km to the nearest metro station",
+        "payment_plan": "full payment on registration (ready unit)",
+        "home_loan": "home loans available through partner banks, subject to the bank's approval"
+      }
+    },
+    {
+      "id": "P07",
+      "name": "Fernwood Courtyard",
+      "developer": "Placeholder Realty",
+      "locality": "HSR Layout",
+      "zone": "South-East",
+      "units_available": 60,
+      "configs": [
+        {
+          "bhk": 1,
+          "sqft_min": 620,
+          "sqft_max": 690,
+          "price_min_lakh": 68.6,
+          "price_max_lakh": 76.7
+        },
+        {
+          "bhk": 4,
+          "sqft_min": 2330,
+          "sqft_max": 2480,
+          "price_min_lakh": 259.8,
+          "price_max_lakh": 276.1
+        }
+      ],
+      "facts": {
+        "possession": "March 2028",
+        "rera": "DEMO-RERA-106",
+        "amenities": "gym, indoor games room, co-working space, children's play area, badminton court",
+        "maintenance": "3.5 rupees per square foot per month",
+        "parking": "one covered car park, two for 3 BHK and above",
+        "metro": "4.2 km to the nearest metro station",
+        "payment_plan": "construction-linked payment plan",
+        "home_loan": "home loans available through partner banks, subject to the bank's approval",
+        "pets": "pet friendly, with a pet park"
+      }
+    },
+    {
+      "id": "P08",
+      "name": "Pinecrest Meadows",
+      "developer": "Demo Estates",
+      "locality": "HSR Layout",
+      "zone": "South-East",
+      "units_available": 34,
+      "configs": [
+        {
+          "bhk": 1,
+          "sqft_min": 630,
+          "sqft_max": 690,
+          "price_min_lakh": 67.9,
+          "price_max_lakh": 74.5
+        },
+        {
+          "bhk": 2,
+          "sqft_min": 1150,
+          "sqft_max": 1230,
+          "price_min_lakh": 124.3,
+          "price_max_lakh": 133.3
+        },
+        {
+          "bhk": 3,
+          "sqft_min": 1600,
+          "sqft_max": 1710,
+          "price_min_lakh": 173.6,
+          "price_max_lakh": 185.4
+        }
+      ],
+      "facts": {
+        "possession": "Ready to move",
+        "rera": "DEMO-RERA-107",
+        "amenities": "landscaped garden, swimming pool, jogging track, gym, indoor games room",
+        "maintenance": "5 rupees per square foot per month",
+        "parking": "one covered car park, two for 3 BHK and above",
+        "metro": "0.9 km to the nearest metro station",
+        "payment_plan": "full payment on registration (ready unit)",
+        "home_loan": "home loans available through partner banks, subject to the bank's approval"
+      }
+    },
+    {
+      "id": "P09",
+      "name": "Pinecrest Park",
+      "developer": "Placeholder Realty",
+      "locality": "Electronic City",
+      "zone": "South",
+      "units_available": 54,
+      "configs": [
+        {
+          "bhk": 2,
+          "sqft_min": 1070,
+          "sqft_max": 1210,
+          "price_min_lakh": 65.1,
+          "price_max_lakh": 73.3
+        },
+        {
+          "bhk": 3,
+          "sqft_min": 1630,
+          "sqft_max": 1840,
+          "price_min_lakh": 99.1,
+          "price_max_lakh": 111.4
+        }
+      ],
+      "facts": {
+        "possession": "June 2027",
+        "rera": "DEMO-RERA-108",
+        "amenities": "children's play area, landscaped garden, jogging track, gym, clubhouse",
+        "maintenance": "4 rupees per square foot per month",
+        "parking": "one covered car park, two for 3 BHK and above",
+        "metro": "3.1 km to the nearest metro station",
+        "payment_plan": "10 percent on booking, rest linked to construction",
+        "home_loan": "home loans available through partner banks, subject to the bank's approval"
+      }
+    },
+    {
+      "id": "P10",
+      "name": "Orchid Residency",
+      "developer": "Sample Homes",
+      "locality": "Electronic City",
+      "zone": "South",
+      "units_available": 38,
+      "configs": [
+        {
+          "bhk": 1,
+          "sqft_min": 640,
+          "sqft_max": 740,
+          "price_min_lakh": 36.1,
+          "price_max_lakh": 41.4
+        },
+        {
+          "bhk": 2,
+          "sqft_min": 1130,
+          "sqft_max": 1290,
+          "price_min_lakh": 63.5,
+          "price_max_lakh": 72.1
+        },
+        {
+          "bhk": 4,
+          "sqft_min": 2340,
+          "sqft_max": 2650,
+          "price_min_lakh": 131.3,
+          "price_max_lakh": 148.5
+        }
+      ],
+      "facts": {
+        "possession": "December 2028",
+        "rera": "DEMO-RERA-109",
+        "amenities": "gym, clubhouse, jogging track, power backup, badminton court",
+        "maintenance": "4 rupees per square foot per month",
+        "parking": "one covered car park per unit",
+        "metro": "4.5 km to the nearest metro station",
+        "payment_plan": "construction-linked payment plan",
+        "home_loan": "home loans available through partner banks, subject to the bank's approval"
+      }
+    },
+    {
+      "id": "P11",
+      "name": "Kestrel Courtyard",
+      "developer": "Demo Estates",
+      "locality": "Bannerghatta Road",
+      "zone": "South",
+      "units_available": 22,
+      "configs": [
+        {
+          "bhk": 3,
+          "sqft_min": 1570,
+          "sqft_max": 1740,
+          "price_min_lakh": 114.3,
+          "price_max_lakh": 126.7
+        },
+        {
+          "bhk": 4,
+          "sqft_min": 2390,
+          "sqft_max": 2710,
+          "price_min_lakh": 174.3,
+          "price_max_lakh": 197.5
+        }
+      ],
+      "facts": {
+        "possession": "December 2028",
+        "rera": "DEMO-RERA-110",
+        "amenities": "gym, landscaped garden, clubhouse, swimming pool, badminton court",
+        "maintenance": "4.5 rupees per square foot per month",
+        "parking": "one covered car park, two for 3 BHK and above",
+        "metro": "3.6 km to the nearest metro station",
+        "payment_plan": "10 percent on booking, rest linked to construction",
+        "home_loan": "home loans available through partner banks, subject to the bank's approval",
+        "pets": "pet friendly, with a pet park"
+      }
+    },
+    {
+      "id": "P12",
+      "name": "Willow Greens",
+      "developer": "Sample Homes",
+      "locality": "Bannerghatta Road",
+      "zone": "South",
+      "units_available": 57,
+      "configs": [
+        {
+          "bhk": 1,
+          "sqft_min": 610,
+          "sqft_max": 690,
+          "price_min_lakh": 54.2,
+          "price_max_lakh": 61.1
+        },
+        {
+          "bhk": 2,
+          "sqft_min": 1060,
+          "sqft_max": 1180,
+          "price_min_lakh": 94.4,
+          "price_max_lakh": 105.2
+        },
+        {
+          "bhk": 3,
+          "sqft_min": 1580,
+          "sqft_max": 1740,
+          "price_min_lakh": 140.9,
+          "price_max_lakh": 154.7
+        }
+      ],
+      "facts": {
+        "possession": "March 2028",
+        "rera": "DEMO-RERA-111",
+        "amenities": "gym, landscaped garden, swimming pool, clubhouse, power backup",
+        "maintenance": "5 rupees per square foot per month",
+        "parking": "one covered car park per unit",
+        "metro": "1.5 km to the nearest metro station",
+        "payment_plan": "construction-linked payment plan",
+        "home_loan": "home loans available through partner banks, subject to the bank's approval"
+      }
+    },
+    {
+      "id": "P13",
+      "name": "Orchid Towers",
+      "developer": "Example Builders",
+      "locality": "Kanakapura Road",
+      "zone": "South",
+      "units_available": 47,
+      "configs": [
+        {
+          "bhk": 1,
+          "sqft_min": 610,
+          "sqft_max": 680,
+          "price_min_lakh": 40.2,
+          "price_max_lakh": 44.8
+        },
+        {
+          "bhk": 2,
+          "sqft_min": 1070,
+          "sqft_max": 1230,
+          "price_min_lakh": 70.9,
+          "price_max_lakh": 81.5
+        },
+        {
+          "bhk": 3,
+          "sqft_min": 1580,
+          "sqft_max": 1800,
+          "price_min_lakh": 104.9,
+          "price_max_lakh": 119.5
+        }
+      ],
+      "facts": {
+        "possession": "December 2028",
+        "rera": "DEMO-RERA-112",
+        "amenities": "clubhouse, co-working space, jogging track, badminton court, gym",
+        "maintenance": "3 rupees per square foot per month",
+        "parking": "one covered car park, two for 3 BHK and above",
+        "metro": "3.2 km to the nearest metro station",
+        "payment_plan": "10 percent on booking, rest linked to construction",
+        "home_loan": "home loans available through partner banks, subject to the bank's approval",
+        "pets": "pet friendly, with a pet park"
+      }
+    },
+    {
+      "id": "P14",
+      "name": "Orchid Greens",
+      "developer": "Demo Estates",
+      "locality": "Kanakapura Road",
+      "zone": "South",
+      "units_available": 59,
+      "configs": [
+        {
+          "bhk": 1,
+          "sqft_min": 600,
+          "sqft_max": 670,
+          "price_min_lakh": 45.2,
+          "price_max_lakh": 49.9
+        },
+        {
+          "bhk": 3,
+          "sqft_min": 1560,
+          "sqft_max": 1760,
+          "price_min_lakh": 116.9,
+          "price_max_lakh": 131.9
+        },
+        {
+          "bhk": 4,
+          "sqft_min": 2250,
+          "sqft_max": 2450,
+          "price_min_lakh": 168.8,
+          "price_max_lakh": 183.9
+        }
+      ],
+      "facts": {
+        "possession": "March 2028",
+        "rera": "DEMO-RERA-113",
+        "amenities": "landscaped garden, indoor games room, power backup, badminton court, co-working space",
+        "maintenance": "4.5 rupees per square foot per month",
+        "parking": "one covered car park, two for 3 BHK and above",
+        "metro": "2.3 km to the nearest metro station",
+        "payment_plan": "construction-linked payment plan",
+        "home_loan": "home loans available through partner banks, subject to the bank's approval"
+      }
+    },
+    {
+      "id": "P15",
+      "name": "Saffron Courtyard",
+      "developer": "Sample Homes",
+      "locality": "Hebbal",
+      "zone": "North",
+      "units_available": 21,
+      "configs": [
+        {
+          "bhk": 2,
+          "sqft_min": 1100,
+          "sqft_max": 1220,
+          "price_min_lakh": 104.0,
+          "price_max_lakh": 115.6
+        },
+        {
+          "bhk": 3,
+          "sqft_min": 1620,
+          "sqft_max": 1770,
+          "price_min_lakh": 152.9,
+          "price_max_lakh": 168.0
+        },
+        {
+          "bhk": 4,
+          "sqft_min": 2270,
+          "sqft_max": 2430,
+          "price_min_lakh": 215.0,
+          "price_max_lakh": 230.2
+        }
+      ],
+      "facts": {
+        "possession": "June 2027",
+        "rera": "DEMO-RERA-114",
+        "amenities": "badminton court, jogging track, gym, landscaped garden, indoor games room",
+        "maintenance": "4 rupees per square foot per month",
+        "parking": "one covered car park per unit",
+        "metro": "2.4 km to the nearest metro station",
+        "payment_plan": "construction-linked payment plan",
+        "home_loan": "home loans available through partner banks, subject to the bank's approval"
+      }
+    },
+    {
+      "id": "P16",
+      "name": "Teakwood Vista",
+      "developer": "Example Builders",
+      "locality": "Hebbal",
+      "zone": "North",
+      "units_available": 12,
+      "configs": [
+        {
+          "bhk": 2,
+          "sqft_min": 1110,
+          "sqft_max": 1210,
+          "price_min_lakh": 109.5,
+          "price_max_lakh": 119.3
+        },
+        {
+          "bhk": 3,
+          "sqft_min": 1570,
+          "sqft_max": 1680,
+          "price_min_lakh": 155.3,
+          "price_max_lakh": 165.9
+        },
+        {
+          "bhk": 4,
+          "sqft_min": 2360,
+          "sqft_max": 2600,
+          "price_min_lakh": 232.7,
+          "price_max_lakh": 257.0
+        }
+      ],
+      "facts": {
+        "possession": "December 2028",
+        "rera": "DEMO-RERA-115",
+        "amenities": "landscaped garden, power backup, children's play area, badminton court, gym",
+        "maintenance": "4 rupees per square foot per month",
+        "parking": "one covered car park per unit",
+        "metro": "5.6 km to the nearest metro station",
+        "payment_plan": "full payment on registration (ready unit)",
+        "home_loan": "home loans available through partner banks, subject to the bank's approval",
+        "pets": "pets allowed as per association rules"
+      }
+    },
+    {
+      "id": "P17",
+      "name": "Teakwood Towers",
+      "developer": "Sample Homes",
+      "locality": "Hennur",
+      "zone": "North",
+      "units_available": 10,
+      "configs": [
+        {
+          "bhk": 2,
+          "sqft_min": 1060,
+          "sqft_max": 1150,
+          "price_min_lakh": 77.6,
+          "price_max_lakh": 83.8
+        },
+        {
+          "bhk": 3,
+          "sqft_min": 1530,
+          "sqft_max": 1740,
+          "price_min_lakh": 112.1,
+          "price_max_lakh": 127.4
+        },
+        {
+          "bhk": 4,
+          "sqft_min": 2260,
+          "sqft_max": 2400,
+          "price_min_lakh": 165.2,
+          "price_max_lakh": 175.3
+        }
+      ],
+      "facts": {
+        "possession": "Ready to move",
+        "rera": "DEMO-RERA-116",
+        "amenities": "badminton court, landscaped garden, jogging track, power backup, indoor games room",
+        "maintenance": "4 rupees per square foot per month",
+        "parking": "one covered car park per unit",
+        "metro": "3.6 km to the nearest metro station",
+        "payment_plan": "full payment on registration (ready unit)",
+        "home_loan": "home loans available through partner banks, subject to the bank's approval"
+      }
+    },
+    {
+      "id": "P18",
+      "name": "Maple Gardens",
+      "developer": "Demo Estates",
+      "locality": "Hennur",
+      "zone": "North",
+      "units_available": 34,
+      "configs": [
+        {
+          "bhk": 1,
+          "sqft_min": 610,
+          "sqft_max": 680,
+          "price_min_lakh": 50.6,
+          "price_max_lakh": 56.7
+        },
+        {
+          "bhk": 3,
+          "sqft_min": 1610,
+          "sqft_max": 1720,
+          "price_min_lakh": 133.8,
+          "price_max_lakh": 142.9
+        }
+      ],
+      "facts": {
+        "possession": "December 2027",
+        "rera": "DEMO-RERA-117",
+        "amenities": "landscaped garden, power backup, gym, swimming pool, co-working space",
+        "maintenance": "4 rupees per square foot per month",
+        "parking": "one covered car park, two for 3 BHK and above",
+        "metro": "0.8 km to the nearest metro station",
+        "payment_plan": "full payment on registration (ready unit)",
+        "home_loan": "home loans available through partner banks, subject to the bank's approval"
+      }
+    },
+    {
+      "id": "P19",
+      "name": "Teakwood Residency",
+      "developer": "Sample Homes",
+      "locality": "Yelahanka",
+      "zone": "North",
+      "units_available": 50,
+      "configs": [
+        {
+          "bhk": 2,
+          "sqft_min": 1080,
+          "sqft_max": 1230,
+          "price_min_lakh": 78.2,
+          "price_max_lakh": 89.2
+        },
+        {
+          "bhk": 3,
+          "sqft_min": 1630,
+          "sqft_max": 1730,
+          "price_min_lakh": 117.8,
+          "price_max_lakh": 125.3
+        },
+        {
+          "bhk": 4,
+          "sqft_min": 2300,
+          "sqft_max": 2440,
+          "price_min_lakh": 166.5,
+          "price_max_lakh": 176.9
+        }
+      ],
+      "facts": {
+        "possession": "June 2027",
+        "rera": "DEMO-RERA-118",
+        "amenities": "jogging track, badminton court, children's play area, gym, co-working space",
+        "maintenance": "5 rupees per square foot per month",
+        "parking": "one covered car park, two for 3 BHK and above",
+        "metro": "2.2 km to the nearest metro station",
+        "payment_plan": "full payment on registration (ready unit)",
+        "home_loan": "home loans available through partner banks, subject to the bank's approval",
+        "pets": "pets allowed as per association rules"
+      }
+    },
+    {
+      "id": "P20",
+      "name": "Teakwood Courtyard",
+      "developer": "Demo Estates",
+      "locality": "Yelahanka",
+      "zone": "North",
+      "units_available": 54,
+      "configs": [
+        {
+          "bhk": 1,
+          "sqft_min": 650,
+          "sqft_max": 720,
+          "price_min_lakh": 49.4,
+          "price_max_lakh": 55.0
+        },
+        {
+          "bhk": 3,
+          "sqft_min": 1580,
+          "sqft_max": 1770,
+          "price_min_lakh": 120.5,
+          "price_max_lakh": 134.9
+        },
+        {
+          "bhk": 4,
+          "sqft_min": 2280,
+          "sqft_max": 2430,
+          "price_min_lakh": 173.4,
+          "price_max_lakh": 185.0
+        }
+      ],
+      "facts": {
+        "possession": "March 2028",
+        "rera": "DEMO-RERA-119",
+        "amenities": "gym, jogging track, co-working space, indoor games room, swimming pool",
+        "maintenance": "5 rupees per square foot per month",
+        "parking": "one covered car park per unit",
+        "metro": "0.8 km to the nearest metro station",
+        "payment_plan": "construction-linked payment plan",
+        "home_loan": "home loans available through partner banks, subject to the bank's approval",
+        "pets": "pet friendly, with a pet park"
+      }
+    },
+    {
+      "id": "P21",
+      "name": "Pinecrest Greens",
+      "developer": "Demo Estates",
+      "locality": "Devanahalli",
+      "zone": "North",
+      "units_available": 33,
+      "configs": [
+        {
+          "bhk": 1,
+          "sqft_min": 630,
+          "sqft_max": 700,
+          "price_min_lakh": 34.1,
+          "price_max_lakh": 37.7
+        },
+        {
+          "bhk": 2,
+          "sqft_min": 1120,
+          "sqft_max": 1210,
+          "price_min_lakh": 60.6,
+          "price_max_lakh": 65.3
+        },
+        {
+          "bhk": 4,
+          "sqft_min": 2320,
+          "sqft_max": 2610,
+          "price_min_lakh": 125.3,
+          "price_max_lakh": 140.8
+        }
+      ],
+      "facts": {
+        "possession": "Ready to move",
+        "rera": "DEMO-RERA-120",
+        "amenities": "gym, power backup, swimming pool, co-working space, indoor games room",
+        "maintenance": "3 rupees per square foot per month",
+        "parking": "one covered car park, two for 3 BHK and above",
+        "metro": "4.9 km to the nearest metro station",
+        "payment_plan": "full payment on registration (ready unit)",
+        "home_loan": "home loans available through partner banks, subject to the bank's approval",
+        "pets": "pets allowed as per association rules"
+      }
+    },
+    {
+      "id": "P22",
+      "name": "Lotus Residency",
+      "developer": "Demo Estates",
+      "locality": "Devanahalli",
+      "zone": "North",
+      "units_available": 49,
+      "configs": [
+        {
+          "bhk": 2,
+          "sqft_min": 1080,
+          "sqft_max": 1150,
+          "price_min_lakh": 53.9,
+          "price_max_lakh": 57.9
+        },
+        {
+          "bhk": 3,
+          "sqft_min": 1600,
+          "sqft_max": 1770,
+          "price_min_lakh": 80.4,
+          "price_max_lakh": 88.7
+        }
+      ],
+      "facts": {
+        "possession": "March 2028",
+        "rera": "DEMO-RERA-121",
+        "amenities": "swimming pool, jogging track, children's play area, landscaped garden, gym",
+        "maintenance": "5 rupees per square foot per month",
+        "parking": "one covered car park per unit",
+        "metro": "3.1 km to the nearest metro station",
+        "payment_plan": "full payment on registration (ready unit)",
+        "home_loan": "home loans available through partner banks, subject to the bank's approval",
+        "pets": "pets allowed as per association rules"
+      }
+    }
+  ]
+}
