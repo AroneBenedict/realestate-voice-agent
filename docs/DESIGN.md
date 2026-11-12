@@ -12,7 +12,7 @@ approved, and it must respect a buyer who does not want to be called.
 
 The rule-based flow is predictable, cheap, fast enough for real-time voice, and can be tested
 on thousands of calls. The LLM variant uses the same tools and guardrails, so the two can be
-compared once it can be run on live calls. Keeping prices, availability and remediation in
+compared once it can be run on live calls. Keeping prices, availability and bookings in
 tools (never in the model's memory) is what makes either one safe to put in front of
 customers.
 
